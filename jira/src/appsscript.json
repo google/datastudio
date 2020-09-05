@@ -1,0 +1,27 @@
+{
+  "timeZone": "America/Santiago",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "OAuth2",
+        "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+        "version": "38"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "Jira Issues",
+    "logoUrl": "https://raw.githubusercontent.com/EnmanuelParache/community-connectors/jira/jira/logo.png",
+    "company": "Intellisys D. Corp.",
+    "companyUrl": "http://intellisysdcorp.com",
+    "addonUrl": "https://github.com/EnmanuelParache/community-connectors/blob/jira/jira/README.md",
+    "supportUrl": "https://github.com/google/datastudio/issues",
+    "description": "This connector calls Jira Software rest API. User can create JIRA dashboards using data studio.",
+    "sources": ["JIRA"],
+    "shortDescription": "Jira Software Datastudio Community Connector",
+    "authType": ["OAUTH2"],
+    "feeType": ["FREE"]
+  }
+}
